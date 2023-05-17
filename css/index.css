@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+
+body{
+background-color: #f3f5f7;
+background-image: ;
+}
+/* 版心 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 42px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    margin: 30px auto;
+}
+.nav {
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+}
+
+/* 轮播图 */
+.banner {
+    height: 420px;
+    background-color: #1c036c;
+}
+.banner .wrapper {
+    height: 420px;
+    background-image: url(../image/P1345163_ce96ce5514a68b34ae2bb9411f9826d5.jpg)
+}
+
+.goods {
+    margin-top: 8px;
+    padding-left: 34px;
+    padding-right: 26px;
+
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0px 2px 3px 0px 
+		rgba(118, 118, 118, 0.2);
+
+    line-height: 60px;
+
+}
+.goods h2 {
+    float: left;
+    font-size: 16px;
+    color: #00a4ff;
+    font-weight: 400;
+}
+
+.goods ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.goods ul li {
+    float: left;
+}
+
+.goods li a {
+    border-left: 1px solid #bfbfbf;
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+}
+
+.goods .xingqu {
+    float: right;
+    font-size: 14px;
+    color: #00a4ff;
+}
+.box .content li {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+}
+
+.box .content li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.box .content li h3 {
+    padding: 20px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.box .content li p {
+    padding: 0 20px;
+    font-size: 12px;
+    color: #999;
+}
+.box .content li img {
+   height: 155px;
+   width: 228px;
+}
+
+.box .content li span {
+    color: #ff7c2d;
+}
+
+/* 版权 */
+.footer {
+  
+
+    height: 80px;
+    background-color: #fff;
+}
+
+
